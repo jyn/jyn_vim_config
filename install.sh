@@ -11,7 +11,7 @@ ln -s ~/.vimconfig/jyn_vim_config/.vimrc ~/.vimrc
 git clone git@github.com:jyn/snipmate-snippets.git
 ln -s ~/.vimconfig/snipmate-snippets ~/.vim/snippets
 
-cd ~/.vim/commandT/ruby/command-t
+cd ~/.vim/bundle/commandT/ruby/command-t
 rvm use system
 ruby extconf.rb
 make
