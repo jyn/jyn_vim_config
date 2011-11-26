@@ -22,13 +22,14 @@ In so doing, the following happened:
 
 ## Installation
 
-Check out the repo and symlink the following:
+Make sure you have rvm installed (we use it to switch to the system ruby
+so that commandT can be recompiled automatically).
 
-  * vim\_config dir as ~/.vim and
-  * vim\_config\.vimrc as ~/.vimrc
+Run the following
+
+    bash < <(curl -sk https://github.com/jyn/jyn_vim_config/blob/master/install.sh)
 
 ## Features
-
 
 * [Ack.vim](http://github.com/mileszs/ack.vim "Ack.vim at github")
 * [AutoClose](http://github.com/Townk/vim-autoclose "Autoclose at github")
