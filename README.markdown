@@ -27,7 +27,7 @@ so that commandT can be recompiled automatically).
 
 Run the following
 
-    bash < <(curl -sk https://github.com/jyn/jyn_vim_config/blob/master/install.sh)
+    bash < <(curl -sk https://raw.github.com/jyn/jyn_vim_config/master/install.sh)
 
 ## Features
 
